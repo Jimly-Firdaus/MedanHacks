@@ -1,0 +1,72 @@
+.container {
+    display: flex;
+    color: #8FE3CF;
+    height: 650px;
+    font-weight: 200;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1px;
+    width: 30%;
+    height: 650px;
+    background-color: #256D85;
+}
+
+.login-form > p {
+    margin-top: 25%;
+}
+
+.container-login{
+    background-color: #002B5B;
+    padding: 40px 30px 20px;
+    width: 300px;
+    height: 350px;
+    margin-top: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container-login input{
+    color: white;
+    width: 250px;
+    height: 25px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    border: none;
+    background-color: #002B5B;
+    border-bottom: 1px solid #F66B0E;
+}
+
+.username-email , .password {
+    position: absolute;
+}
+
+/* .input-username-email:focus > .username-email {
+    font-size: 10px;
+} */
+
+.input-username-email:focus{
+    border: none;
+}
+
+.container-login > .input-username-email:focus .username-email {
+    font-size: 10px;
+    transition: 0.4s;
+}
+
+.remember-me{
+    display: flex;
+    justify-content: left;
+    
+    margin-top: 35px;
+}
+
+.image{
+    width: 70%;
+    height: 650px;
+    background: linear-gradient(rgba(35, 216, 255, 0.4), rgba(35, 216, 255, 0.4)),
+    url("../components/PNG/dum1.png");
+}
+
