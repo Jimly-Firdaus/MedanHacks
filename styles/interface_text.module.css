@@ -1,0 +1,29 @@
+.container{
+    height: 650px;
+    display: flex;
+}
+
+.sidebar{
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 5%;
+}
+
+.write-msg-btn , .recent-msg-btn{
+    cursor: pointer;
+    margin-bottom: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+    background-color: #EFFFFD;
+    border-left: 2px solid #42C2FF;
+}
+

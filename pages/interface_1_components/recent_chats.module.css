@@ -1,0 +1,11 @@
+
+.recent-ctc{
+    height: 650px;
+    width: 35%;
+    border-right: 2px solid #42C2FF;
+}
+
+.chatbox{
+    width: 65%;
+    height: 650px;
+}

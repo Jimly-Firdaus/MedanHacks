@@ -7,8 +7,8 @@ const Login = () => {
             <div className={styles['login-form']}>
                 <p>LOGIN</p>
                 <div className={styles['container-login']}>
-                    <div className={styles['username-email']}>Username / Email</div>
                     <input type='text' className={styles['input-username-email']}/>
+                    <label className={styles['username-email']}>Username / Email</label>
                     <div className={styles['password']}>Password</div>
                     <input type='text' className={styles['input-password']}/>
                     <div className={styles['remember-me']}><input type='checkbox'/> Remember Me</div>

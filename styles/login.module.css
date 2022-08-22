@@ -43,11 +43,15 @@
     position: absolute;
 }
 
+.username-email {
+    
+}
+
 /* .input-username-email:focus > .username-email {
     font-size: 10px;
 } */
 
-.input-username-email:focus{
+.input-username-email:focus ~ {
     border: none;
 }
 
@@ -59,7 +63,6 @@
 .remember-me{
     display: flex;
     justify-content: left;
-    
     margin-top: 35px;
 }
 
