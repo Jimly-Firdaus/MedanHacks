@@ -10,6 +10,9 @@
     width: 800px;
     height: 400px;
 }
+.textArea::-webkit-scrollbar {
+    display: none;
+  }
 .send-btn{
     position: absolute;
     cursor: pointer;

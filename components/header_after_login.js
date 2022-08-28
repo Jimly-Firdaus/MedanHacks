@@ -1,7 +1,7 @@
 import styles from "./Header.module.css";
 import Link from "next/link";
 
-const Header = () => {
+const Header_after_login = () => {
   return (
     <div className={styles.container}>
       <ul className={styles["outer-navbar"]}>
@@ -18,7 +18,7 @@ const Header = () => {
             <li>
               <Link href="/about">About Us</Link>
             </li>
-            {/* <li>
+            <li>
                 <div>
               <label className={styles.switch}>
                 <input type="checkbox" />
@@ -27,8 +27,9 @@ const Header = () => {
               </div>
             </li>
             <li>
-              <Link href="/auth">Login</Link>
-            </li> */}
+              <Link href="/about">Profile</Link>
+            </li>
+            
           </ul>
         </li>
       </ul>
@@ -36,4 +37,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Header_after_login;

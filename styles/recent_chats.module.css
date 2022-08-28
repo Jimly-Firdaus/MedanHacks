@@ -1,0 +1,82 @@
+
+.recent-ctc{
+    height: 650px;
+    width: 35%;
+    border-right: 2px solid #42C2FF;
+}
+
+.chatbox{
+    width: 65%;
+    height: 650px;
+}
+
+.listchat{
+    list-style-type: none;
+    height: 650px;
+    margin-top: 0px;
+}
+.listchat li {
+    display: flex;
+    padding-left: 15px;
+    height:75px;
+    margin-top: 0px;
+    margin-left: -40px;
+    border-bottom: solid 2px #42C2FF;
+}
+
+.listchat li:hover {
+    background-color: #42C2FF;
+}
+
+.listchat li > p {
+    width: 30%;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 0px;
+    opacity: 40%;
+    font-size: 15px;
+}
+
+.chats-area > textarea {
+    resize: none;
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 5px;
+    border-radius: 15px;
+    background-color: #EFFFFD;
+    margin-left: 50px;
+    width: 650px;
+    height: 50px;
+}
+
+.textArea::-webkit-scrollbar {
+    display: none;
+}
+
+.send-btn{
+    width: 50px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    background-color: #EFFFFD;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 700px;
+}
+.send-btn:active{
+    width: 40px;
+    height: 40px;
+    transition: 0.1s;
+}
+
+.chats-area {
+    margin-top: 550px;
+}
+
+.chats-content {
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 0px;
+    height: 530px;
+    width:60%;
+}
