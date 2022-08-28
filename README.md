@@ -1,17 +1,24 @@
-Update:
--> Login function : disabled
--> Chatbox function : added
--> Recent Chats function : added
--> User Chats UI : added
+## Update: <br />
+    -> Login function : disabled <br />
+    -> Disabled switch functionality <br />
+    -> Chatbox function : added <br />
+    -> Recent Chats function : added <br />
+    -> User Chats UI : added <br />
+    -> Write data to Cloud Firestore DB is enabled <br />
+    -> Login Authentication with Google is enabled <br />
 
 
-Objective :
-    -> Connect to a Database for storing data (chats, contacts).
-    -> Finishing User Chats UI for Recent Chats function.
-    -> Initialize Login function with Firebase.
-    -> New User Chats function for second view.
-    -> Reformat UI.
-    -> Add Logo.
-    -> Reformat Login UI for header.
-    -> Testing.
-    -> Deploy.
+## Objective :<br />
+    -> Read data from Cloud Firestore DB.<br />
+    -> Add second role user. <br />
+    -> Connect 2 chats data. <br />
+    -> Sync chats data to real time. <br />
+    -> Finishing App UI.<br />
+    -> Add Logo.<br />
+    -> Reformat index.js code.<br />
+    -> Testing.<br />
+    -> Deploy.<br />
+    
+## Current Progress:
+-> Retrying to read from Cloud Firestore <br />
+-> Format export JSON file <br />
